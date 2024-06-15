@@ -17,6 +17,7 @@
 		D5B047CF2C1C70E700CDB781 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B047CE2C1C70E700CDB781 /* Color.swift */; };
 		D5B047D12C1C71DE00CDB781 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B047D02C1C71DE00CDB781 /* View.swift */; };
 		D5B047D32C1C734300CDB781 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B047D22C1C734300CDB781 /* MainView.swift */; };
+		D5B047D52C1DC2C000CDB781 /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B047D42C1DC2C000CDB781 /* TaskViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		D5B047CE2C1C70E700CDB781 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		D5B047D02C1C71DE00CDB781 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		D5B047D22C1C734300CDB781 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		D5B047D42C1DC2C000CDB781 /* TaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				D5B047CB2C1C705F00CDB781 /* OnboardingViewModel.swift */,
+				D5B047D42C1DC2C000CDB781 /* TaskViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 				D5B047C62C1C66AD00CDB781 /* SplashScreenView.swift in Sources */,
 				D5B047C92C1C701400CDB781 /* OnboardingPage.swift in Sources */,
 				D5B047D12C1C71DE00CDB781 /* View.swift in Sources */,
+				D5B047D52C1DC2C000CDB781 /* TaskViewModel.swift in Sources */,
 				D5B047CF2C1C70E700CDB781 /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
