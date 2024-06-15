@@ -18,6 +18,8 @@
 		D5B047D12C1C71DE00CDB781 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B047D02C1C71DE00CDB781 /* View.swift */; };
 		D5B047D32C1C734300CDB781 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B047D22C1C734300CDB781 /* MainView.swift */; };
 		D5B047D52C1DC2C000CDB781 /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B047D42C1DC2C000CDB781 /* TaskViewModel.swift */; };
+		D5BB431B2C1DDB2700E5E4DE /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BB431A2C1DDB2700E5E4DE /* Task.swift */; };
+		D5BB43232C1E07EB00E5E4DE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BB43222C1E07EB00E5E4DE /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		D5B047D02C1C71DE00CDB781 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		D5B047D22C1C734300CDB781 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		D5B047D42C1DC2C000CDB781 /* TaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
+		D5BB431A2C1DDB2700E5E4DE /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		D5BB43222C1E07EB00E5E4DE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,7 @@
 				D5B047C52C1C66AD00CDB781 /* SplashScreenView.swift */,
 				D5B047BB2C1C660200CDB781 /* Assets.xcassets */,
 				D5B047BD2C1C660200CDB781 /* Preview Content */,
+				D5BB43222C1E07EB00E5E4DE /* HomeView.swift */,
 			);
 			path = StartupIos;
 			sourceTree = "<group>";
@@ -90,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				D5B047C82C1C701400CDB781 /* OnboardingPage.swift */,
+				D5BB431A2C1DDB2700E5E4DE /* Task.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -184,8 +190,10 @@
 			files = (
 				D5B047CC2C1C705F00CDB781 /* OnboardingViewModel.swift in Sources */,
 				D5B047D32C1C734300CDB781 /* MainView.swift in Sources */,
+				D5BB431B2C1DDB2700E5E4DE /* Task.swift in Sources */,
 				D5B047BA2C1C660000CDB781 /* ContentView.swift in Sources */,
 				D5B047B82C1C660000CDB781 /* StartupIosApp.swift in Sources */,
+				D5BB43232C1E07EB00E5E4DE /* HomeView.swift in Sources */,
 				D5B047C62C1C66AD00CDB781 /* SplashScreenView.swift in Sources */,
 				D5B047C92C1C701400CDB781 /* OnboardingPage.swift in Sources */,
 				D5B047D12C1C71DE00CDB781 /* View.swift in Sources */,

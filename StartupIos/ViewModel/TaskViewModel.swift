@@ -9,16 +9,43 @@ import SwiftUI
 
 class TaskViewModel: ObservableObject{
     
-    //MARK: initialization
-    init(){
-        fetchCurrentWeek()
-    }
+    @Published var storedTasks: [Task] =
+    [
+        Task(taskTitle: "run", taskDescription: "run into the river", taskDate: Date.now),
+        Task(taskTitle: "yoga", taskDescription: "yoga at the roof", taskDate: Date.now )
+          
+    ]
     
     //MARK: current week days
     @Published var currentWeek: [Date] = []
     
     //MARK: Current Day
     @Published var currentDay: Date = Date()
+    
+    //MARK: Filtering Today Task
+    @Published var filteredTasks:[Task]?
+    
+    //MARK: initialization
+    init(){
+        fetchCurrentWeek()
+        filterTodayTasks()
+    }
+    
+    //MARK: Filter today tasks
+    func filterTodayTasks(){
+        DispatchQueue.global(qos: .userInteractive).async {
+            let calendar = Calendar.current
+            let filtered = self.storedTasks.filter{
+                return calendar.isDate($0.taskDate,inSameDayAs: self.currentDay)
+            }
+            DispatchQueue.main.async {
+                withAnimation{
+                    self.filteredTasks = filtered
+                }
+            }
+        }
+    }
+    
     
     func fetchCurrentWeek(){
         let today = Date()
